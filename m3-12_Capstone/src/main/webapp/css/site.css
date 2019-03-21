@@ -1,0 +1,226 @@
+body {
+	background-color: #FFFFF;
+	font-family: sans-serif;
+}
+
+body, header, nav {
+	margin: 0px;
+}
+
+header{
+	padding: 10px 10px;
+}
+
+header img {
+	height: 110px;
+}
+
+nav {
+	background-color: #213236;
+	margin-bottom: 20px;
+	padding: 5px;
+	height: 50px;	
+}
+
+ul {
+	padding-left:4px;
+}
+
+li {
+	padding-bottom: 4px;
+}
+
+li a {
+	color: gray;
+	text-decoration: none;
+	/*font-size: 20pt;*/
+	list-style: none;
+	text-align: center;
+	vertical-align: middle;
+}
+
+nav ul {
+	float: left;
+	
+	
+}
+
+
+nav ul li {
+	float: left;
+	margin-right: 20px;
+	/* background-color: white;
+	border-radius: 8px; */
+	list-style: none;
+	text-align: center;
+	padding-top: 5px;
+	width: 5em;
+}
+
+li a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+footer {
+	background-color: #213236;
+	margin-top: 30px;
+	padding: 5px;
+	height: 50px;
+}
+
+footer > p {
+	color: white;
+}
+
+.main-content {
+	display: flex;
+}
+.parks {
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.contentParks {
+	display:flex;
+	margin: 13px;
+	
+}
+.parkDetail {
+	margin-left: 15px;
+}
+
+.imageHome {
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 15px;
+	
+}
+.descriptionHome {
+	margin-left: 10px;
+}
+
+.parkName {
+	font-weight: bold;
+}
+
+.contents {
+	
+	position: relative;
+}
+.parkDetail img {
+	width: 100%;
+	height: 550px;
+	margin-right: 15px;
+}
+.parkImage {
+	display: flex;
+}
+.weather {
+	display: flex;
+	flex-direction: row;
+	margin-left: 15px;
+	margin-top: 40px;
+	align-items: center;
+	
+}
+.today {
+	margin-right: 0px;
+	display: flex;
+	
+	
+}
+
+.today img {
+	height: 60%;
+	width: 60%;
+	
+	
+}
+
+.today:nth-child(1) {
+	
+	height: 80%;
+	width: 80%;
+	text-align: center;
+	align-items: center;  
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	
+}
+
+.today:nth-child(n+2) div:nth-child(3) {
+	height: 50%;
+	width: 50%;
+	/* text-align: center;
+	align-items: center; */
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	
+}
+
+
+.today:nth-child(n+2){
+	height: 50%;
+	width: 50%;
+	text-align: center;
+	align-items: center;  
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	
+}
+
+.today:nth-child(n+2) div:nth-child(2){
+	height: 45%;
+	width: 45%;
+	text-align:center;
+	align-items:center;
+	display:flex;
+	justify-content:center;
+	flex-direction: column;
+}
+.error {
+	color: red;
+}
+
+h1 {
+	text-align: center;
+}
+.survey {
+	padding: 15px;
+}
+
+.surveyResults {
+	text-align:center;
+}
+
+.surveyDetails {
+	display: flex;
+	padding: 15px;
+	align-items: center;
+	
+}
+.surveyImage img  {
+	height: 160px;
+	width:190px;
+	
+}	
+.countSurvey {
+	position: relative;
+	padding-left: 25px;		
+}
+
+
+#submit {
+	background-color: #D3D3D3;	
+	border-radius: 2px;
+}
+
+
+
+
+
